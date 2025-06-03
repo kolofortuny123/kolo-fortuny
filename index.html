@@ -208,7 +208,7 @@
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ content: `🎯 Użytkownik "${nick}" zakręcił kołem i wylosował: **${result}**` }),
         });
-         localStorage.setItem("spun", "true");
+        localStorage.setItem("spun", "true");
         spinning = false;
       }, 4200);
     });
